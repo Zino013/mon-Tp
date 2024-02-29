@@ -52,6 +52,7 @@ public class Configuration {
     public boolean ajouter(Composant composant) {
         double prixtotal = 0;
         if (nbComposant > MAX_COMPOSANTS || nbComposant < 0) {
+            System.out.println("Il y a déjà trop composant de cette configuration");
             return false;
         }
 

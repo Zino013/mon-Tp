@@ -21,7 +21,7 @@ public class Composant {
     }
     public boolean estIdentique(Composant x){
         boolean estvrai = false;
-        if((this.CATEGORIE == x.CATEGORIE) && (this.marque == x.marque) && (this.nom == x.nom)){
+        if((this.CATEGORIE.equals(x.CATEGORIE)) && (this.marque.equalsIgnoreCase( x.marque)) && (this.nom.equalsIgnoreCase( x.nom))){
             estvrai = true;
             return estvrai;
         }
