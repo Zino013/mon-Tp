@@ -1,7 +1,7 @@
 /* INSCRIVEZ VOTRE (OU VOS) PRÉNOM ET NOM CI-DESSOUS
    1:Abdoul Awal Boussim
    2:
-   Adresse URL de votre dépôt GitHub:
+   Adresse URL de votre dépôt GitHub: https://github.com/Zino013/mon-Tp.git
 NE MODIFIEZ PAS LE RESTE DE CE FICHIER
 (sauf si c'est pour mettre certaines sections en commentaire le temps de tester votre code)
 */
