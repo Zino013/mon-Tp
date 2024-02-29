@@ -14,7 +14,7 @@ public class Configuration {
     }
 
     public Configuration(Configuration originale){
-        this.DESCRIPTION = originale.DESCRIPTION.toUpperCase();
+        this.DESCRIPTION = originale.DESCRIPTION + " (copie)";
         this.prixMax = originale.prixMax;
         this.nbComposant = originale.nbComposant;
 
